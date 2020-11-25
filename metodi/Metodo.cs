@@ -32,7 +32,7 @@ namespace metodi
             {
                 Console.WriteLine("Triangolo Isoscele");
             }
-            else if (n1 <= n2 && n1 <= n3 && n2 <= n3)
+            else if (n1 == n2 && n1 == n3 && n2 == n3)
             {
                 Console.WriteLine("Triangolo Equilatero");
             }
